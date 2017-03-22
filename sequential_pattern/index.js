@@ -62,11 +62,13 @@ const task4 = (cb) => {
 
 const tasks = [
   task1,
-  task2,
-  task3,
-  task4
+  task2
 ];
 
 iterateSeries(tasks, function(result) {
   console.log(result);
 });
+
+iterateSeries([ task3, task4 ], function(result) {
+  console.log(result);
+})
