@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/bboysathish/nodejs-patterns#readme",
   "dependencies": {
+    "ini": "^1.3.4",
     "level": "^1.6.0",
     "leveldown": "^1.6.0",
-    "levelup": "^1.3.5"
+    "levelup": "^1.3.5",
+    "object-path": "^0.11.4"
   }
 }
